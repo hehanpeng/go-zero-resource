@@ -7,7 +7,7 @@ go-zero练手项目，包装了多种资源，整合成统一接口对外提供�
 ## goland配置
 - -f service/resource/cmd/api/etc/resource-api.yaml
 ## 更新goctl版本
-- go get -u github.com/tal-tech/go-zero/tools/goctl
+- go get -u github.com/zeromicro/go-zero/tools/goctl
 ## 生成swagger
 - goctl api plugin -plugin goctl-swagger="swagger" -api resource.api -dir .
 - goctl api plugin -plugin goctl-swagger="swagger -filename resource.json -host 127.0.0.1:8888 -basepath /" -api resource.api -dir .
